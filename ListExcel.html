@@ -85,11 +85,10 @@
       
         <input type="text" id="nama"/>
     <button class="btn btn-outline-primary" id="tombol">Kirim</button>
-    <ul id="list"><ul class="list-group">
+    <ul id="list" class="list-group">
 
 </ul>
  
-    </ul>
  
     <script>
         
@@ -110,7 +109,7 @@
         tombol.addEventListener('click', function(){
             // alert("Hai " +nama.value)
             var x = nama.value
-            list.innerHTML = list.innerHTML + "<li>" + x + "</li>"; 
+            list.innerHTML = list.innerHTML + "<li class=\"list-group-item\">" + x + "</li>"; 
         })
  
     </script>
